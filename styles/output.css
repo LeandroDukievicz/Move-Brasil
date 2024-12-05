@@ -563,6 +563,16 @@ video {
   margin-right: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -571,8 +581,20 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-20 {
@@ -642,6 +664,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .rounded {
@@ -760,4 +790,10 @@ video {
 .hover\:text-green-700:hover {
   --tw-text-opacity: 1;
   color: rgb(21 128 61 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
 }
