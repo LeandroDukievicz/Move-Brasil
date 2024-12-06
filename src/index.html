@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,25 +39,49 @@
     </header>
 
     <main class="w-full">
-        <div>
-            <section class="bg-white max-w-lg w-full">
-                <div class="bg-slate-200 flex w-full items-center justify-between">
-                    <section class="flex-1 pt-3 flex-col items-center justify-center gap-2">
-                        <i class="fa fa-signal"></i>
-                        <span class="text-center">Faça viagens ou entregas</span>
-                        <span class="w-full bg-black h-[1.5px]"> </span>
+        <div class="w-full max-w-7xl mx-auto flex">
+            <section class="bg-white max-w-lg w-ful md:mx-4 md:my-4">
+                <div class="bg-slate-100 flex w-full items-center justify-around">
+                    <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+                        <a href="#" class="flex flex-col items-center justify-center hover:animate-pulse">
+                            <i class="fa fa-signal" style="font-size:32px"></i>
+                            <span class="text-center font-medium">Faça viagens ou entregas</span>
+                            <span class="w-full bg-black h-[1.5px]"></span>
+                        </a>
                     </section>
 
-                    <section class="flex-1 pt-3 flex-col items-center justify-center gap-2">
-                        <i class="fa fa-car"></i>
-                        <span>Viajar</span>
+                    <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+                        <a href="#" class="flex flex-col items-center justify-center hover:animate-pulse">
+                            <i class="fa fa-car" style="font-size:32px"></i>
+                            <span class="text-center font-medium">Viajar</span>
+                        </a>
                     </section>
 
-                    <section class="flex-1 pt-3 flex-col items-center justify-center gap-2">
-                        <i class="fa fa-key"></i>
-                        <span>Alugue seus carros </span>
-
+                    <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+                        <a href="#" class="flex flex-col items-center justify-center hover:animate-pulse">
+                            <i class="fa fa-key" style="font-size:32px"></i>
+                            <span class="text-center font-medium">Alugue um carro</span>
+                        </a>
                     </section>
+                </div>
+
+                <div class="flex flex-col gap-5 px-4 my-4">
+                    <h1 class="font-bold text-4xl max-w-sm">
+                        Assuma o comando e ganhe
+                    </h1>
+                    <p class="max-w-sm font-medium">
+                        Conquiste as ruas, Dirija com a Move Brasil
+                    </p>
+
+                    <button
+                        class="bg-black self-start text-white px-6 py-2 rounded-lg hover:text-yellow-300 duration-200">
+                        Cadastre-se para dirigir
+                    </button>
+
+                    <a href="#"
+                        class="text-gray-700 mt-7 mb-4 border-b-2 self-start font-light hover:border-gray-700 duration-300">
+                        Saiba mais sobre como dirigir e fazer entregas
+                    </a>
                 </div>
             </section>
         </div>
