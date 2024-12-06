@@ -1,10 +1,12 @@
 module.exports = {
-  content: [
-    "./src/**/*.{html,js}",
-    // Adicione os caminhos para os arquivos que contêm classes do Tailwind
-  ],
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        Banner: "url('../src/assets/bg.jpg')",
+        City: "url('..src/assets/bg-city.png')",
+      },
+    },
   },
   plugins: [],
 };
