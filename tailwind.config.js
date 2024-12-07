@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         Banner: "url('../src/assets/bg.jpg')",
-        City: "url('..src/assets/bg-city.png')",
+        City: "url('../src/assets/bg-city.png')",
       },
     },
   },
